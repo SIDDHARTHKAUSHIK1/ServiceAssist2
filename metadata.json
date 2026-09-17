@@ -1,0 +1,8 @@
+{
+  "name": "Service Assist",
+  "description": "On-demand home services and expert assistance marketplace for booking verified repair, cleaning, beauty, and maintenance professionals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
