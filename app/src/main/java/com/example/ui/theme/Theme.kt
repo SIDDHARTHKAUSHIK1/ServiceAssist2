@@ -11,13 +11,13 @@ import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
 val ServoraLightColorScheme = lightColorScheme(
-    primary = ServoraCoral,
+    primary = AssistPurple,
     onPrimary = Color.White,
-    primaryContainer = ServoraPeach,
-    onPrimaryContainer = ServoraCoralDark,
-    secondary = ServoraHoney,
-    onSecondary = ServoraCharcoal,
-    secondaryContainer = ServoraPeachLight,
+    primaryContainer = AssistLavender,
+    onPrimaryContainer = AssistPurpleDark,
+    secondary = Color(0xFF9333EA),
+    onSecondary = Color.White,
+    secondaryContainer = AssistLavenderLight,
     onSecondaryContainer = ServoraCharcoal,
     tertiary = ServoraCharcoal,
     onTertiary = Color.White,
@@ -28,23 +28,23 @@ val ServoraLightColorScheme = lightColorScheme(
     surfaceVariant = ServoraSurfaceSubtle,
     onSurfaceVariant = ServoraSubtext,
     outline = ServoraBorder,
-    outlineVariant = Color(0xFFDED8CE)
+    outlineVariant = Color(0xFFE4DFEC)
 )
 
 private val ServoraDarkColorScheme = darkColorScheme(
-    primary = AssistGreen,
-    onPrimary = Color.White,
-    primaryContainer = Color(0xFF064E3B),
-    onPrimaryContainer = Color(0xFFA7F3D0),
-    secondary = Color(0xFF10B981),
+    primary = Color(0xFFA78BFA),
+    onPrimary = Color(0xFF2E1065),
+    primaryContainer = Color(0xFF4C1D95),
+    onPrimaryContainer = Color(0xFFDDD6FE),
+    secondary = Color(0xFFC084FC),
     onSecondary = Color.Black,
-    background = Color(0xFF0F1713),
-    onBackground = Color(0xFFE6F4EA),
-    surface = Color(0xFF16231C),
-    onSurface = Color(0xFFE6F4EA),
-    surfaceVariant = Color(0xFF1F3228),
-    onSurfaceVariant = Color(0xFF9CA3AF),
-    outline = Color(0xFF2D4A3C)
+    background = Color(0xFF0F0D17),
+    onBackground = Color(0xFFF3F0F9),
+    surface = Color(0xFF181524),
+    onSurface = Color(0xFFF3F0F9),
+    surfaceVariant = Color(0xFF242033),
+    onSurfaceVariant = Color(0xFFA39DB2),
+    outline = Color(0xFF38324C)
 )
 
 @Composable
